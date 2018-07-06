@@ -1,0 +1,27 @@
+{
+    "name": "hardsoft321/svscan",
+    "description": "SuiteCRM Vulnerability Scanner",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Evgeny Pervushin",
+            "email": "pea@lab321.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SVScan\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "url": "https://github.com/eapunk/progpilot.git",
+            "type": "git"
+        }
+    ],
+    "require": {
+        "designsecurity/progpilot": "dev-svscan",
+        "ircmaxell/php-cfg": "@dev",
+        "ulrichsg/getopt-php": "^3.2"
+    }
+}
